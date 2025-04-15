@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qixuan (Josie) Zhang's Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="profile/8.svg" alt="Qixuan (Josie) Zhang" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Qixuan (Josie) Zhang">Qixuan (Josie) Zhang</h1>
+          <p class="title">Biostatistics & Industrial Engineering Professional</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+        </button>
+      </div>
+      <div class="sidebar-info_more" data-sidebar-more>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:qixuan.zhang@yale.edu" class="contact-link">qixuan.zhang@yale.edu</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+17344508268" class="contact-link">(734) 450-8268</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>367 Cedar St, New Haven, CT, 06510</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/qixuan-zhang/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Teaching</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <h2>👋 Hi, I'm Qixuan (Josie) Zhang</h2>
+          <p>Qixuan Zhang is a highly skilled professional with a strong background in biostatistics and industrial engineering. She has extensive experience in data analysis, optimization, and strategic decision-making, demonstrated through her internships at Siemens, Switchboard, and Didi Global Company. Her technical proficiency includes Python, R, SQL, and advanced data visualization tools, making her a valuable asset in any data-driven environment.</p>
+        </section>
+      </article>
+
+      <article class="education" data-page="education">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="book-outline"></ion-icon> Education
+          </h2>
+        </header>
+        <section class="timeline" id="education-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">YALE SCHOOL OF PUBLIC HEALTH</h4>
+              <span class="graduation-date">2025</span>
+              <p class="degree">MPH</p>
+              <p class="field">Biostatistics</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">UNIVERSITY OF MICHIGAN, ANN ARBOR</h4>
+              <span class="graduation-date">2023</span>
+              <p class="degree">B.S.E.</p>
+              <p class="field">Industrial and Operations Engineering, minor in Mathematics</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="flask-outline"></ion-icon> Work Experience
+          </h2>
+        </header>
+        <section class="timeline" id="experience-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Strategic Product Manager intern</h4>
+              <span class="duration">2024/7 - 2024/8</span>
+              <p class="institution">SIEMENS</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Developed a Job Shop Scheduling model using the Gurobi optimizer, applying mathematical modeling and Mixed Integer Programming to optimize resource allocation, significantly reducing order delays.</li>
+                  <li>Reorganized an industrial-scale database categorizing products by lifecycle, production process, and supply chain, ensuring data integrity and support for strategic decision-making.</li>
+                  <li>Conducted a detailed market analysis of large model applications in the industry, influencing strategic product planning with data-driven insights.</li>
+                </ul>
+              </div>
+              <div class="techniques-container">
+                <span class="technique-tag">Gurobi optimizer</span>
+                <span class="technique-tag">Mixed Integer Programming</span>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Science Intern at Product department</h4>
+              <span class="duration">2024/5 - 2024/8</span>
+              <p class="institution">SWITCHBOARD, MD</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Developed and fine-tuned a decision tree model, achieving 95-98% accuracy.</li>
+                  <li>Implemented grid search for optimal hyperparameter settings to balance complexity and accuracy.</li>
+                  <li>Created dashboards using AWS QuickSight and Athena (SQL) to visualize accounts receivable performance metrics, reducing open A/R days and identifying nearly $200M in unsubmitted claims.</li>
+                  <li>Delivered actionable insights into payer-specific losses through advanced data analytics, supporting a strategic overhaul of the claims resubmission process and enhancing financial decision-making.</li>
+                </ul>
+              </div>
+              <div class="techniques-container">
+                <span class="technique-tag">Decision tree model</span>
+                <span class="technique-tag">AWS QuickSight</span>
+                <span class="technique-tag">Athena (SQL)</span>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intern, Strategy in the Credit Risk Department</h4>
+              <span class="duration">2023/6 - 2023/8</span>
+              <p class="institution">DIDI GLOBAL COMPANY</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Wrangled 10GB of data from Hive systems and vendors related to fraud customers’ identification, integrating data using EXCEL pivot table and VLOOKUP function to identify 10+ key characteristics.</li>
+                  <li>Constructed daily real-time visual dashboard aligned with KYC and OKR metrics by analyzing millions of records in Hive system (SQL), enabling monitoring of customer performance on the new launching product.</li>
+                  <li>Liaised with product and technology team with a Mexico base, gathering requirements, and providing real-time feedback to improve the User Interface of the platform, which increased customer usage by 30%.</li>
+                </ul>
+              </div>
+              <div class="techniques-container">
+                <span class="technique-tag">Hive systems</span>
+                <span class="technique-tag">EXCEL pivot table</span>
+                <span class="technique-tag">VLOOKUP</span>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Industrial Engineer</h4>
+              <span class="duration">2022 - 2023</span>
+              <p class="institution">CENTER FOR HEALTHCARE ENGINEERING & PATIENT SAFETY (CHEPS)</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Systemically Formulated Linear Programming model to solve for overtime and irregular on-call schedules, accomplished the model in C++ to produce optimal schedule meeting individual preferences.</li>
+                  <li>Built a digitalized platform via Excel VBA for multiple hospitals to keep track with staff by implementing features and iteratively improving by end users’ feedback; Increased hospital operational efficiency by 200%.</li>
+                </ul>
+              </div>
+              <div class="techniques-container">
+                <span class="technique-tag">Linear Programming</span>
+                <span class="technique-tag">C++</span>
+                <span class="technique-tag">Excel VBA</span>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="build-outline"></ion-icon> Technical Skills
+          </h2>
+        </header>
+        <section class="skills-container" id="technical-skills-container">
+          <div class="skills-group">
+            <ul class="skills-list">
+              <li class="skill-item">Python (NumPy, Pandas, Scikit-learn)</li>
+              <li class="skill-item">SQL</li>
+              <li class="skill-item">MATLAB</li>
+              <li class="skill-item">R</li>
+              <li class="skill-item">SAS</li>
+              <li class="skill-item">VBA</li>
+              <li class="skill-item">AWS QuickSight</li>
+              <li class="skill-item">Tableau</li>
+              <li class="skill-item">Excel</li>
+              <li class="skill-item">Linear Programming</li>
+              <li class="skill-item">Convex Optimization</li>
+              <li class="skill-item">Stochastic Networks</li>
+              <li class="skill-item">A/B Test</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <article class="awards" data-page="awards">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="trophy-outline"></ion-icon> Honors & Awards
+          </h2>
+        </header>
+        <section class="timeline" id="awards-container">
+          <ol class="timeline-list">
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">Summa Cum Laude</h4>
+              <p class="award-year">2023</p>
+              <p class="award-issuer">UNIVERSITY OF MICHIGAN, ANN ARBOR</p>
+            </li>
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">Dean's list for 4 consecutive years</h4>
+              <p class="award-issuer">UNIVERSITY OF MICHIGAN, ANN ARBOR</p>
+            </li>
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">Penn Healthcare Case Competition (4th/80)</h4>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    'use strict';
+
+    // Toggle sidebar contacts
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    const sidebarMore = document.querySelector("[data-sidebar-more]");
+
+    sidebarBtn.addEventListener("click", function () {
+      sidebarMore.classList.toggle("active");
+      sidebarBtn.querySelector("span").textContent = sidebarMore.classList.contains("active") ? "Hide Contacts" : "Show Contacts";
+    });
+
+    // Handle navigation links
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+        this.classList.add("active");
+
+        const pageName = this.textContent.toLowerCase().trim();
+        pages.forEach(page => page.classList.remove("active"));
+        const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+        if (targetPage) {
+          targetPage.classList.add("active");
+          window.scrollTo(0, 0);
+        }
+      });
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
